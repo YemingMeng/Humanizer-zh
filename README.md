@@ -2,8 +2,9 @@
 
 > **声明：**
 > - 本项目的核心文件翻译自 [blader/humanizer](https://github.com/blader/humanizer/tree/main)
+> - 本项目在 [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh/tree/main) 基础上微调
 > - 实用工具部分（核心规则、快速检查清单、质量评分）参考了 [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)
-> - 原项目基于维基百科的 [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) 指南
+> - 原项目基于维基百科的 [AI生成文的特征](https://zh.wikipedia.org/wiki/Wikipedia:AI%E7%94%9F%E6%88%90%E6%96%87%E7%9A%84%E7%89%B9%E5%BE%B5) 指南
 
 ---
 
@@ -21,7 +22,7 @@ Humanizer-zh 是一个用于去除文本中 AI 生成痕迹的工具，帮助你
 ### 方法一：通过 npx 一键安装（推荐）
 
 ```bash
-npx skills add https://github.com/op7418/Humanizer-zh.git
+npx skills add https://github.com/YemingMeng/Humanizer-zh
 ```
 
 这是最简单的安装方式，会自动将技能安装到正确的目录。
@@ -30,7 +31,7 @@ npx skills add https://github.com/op7418/Humanizer-zh.git
 
 ```bash
 # 克隆到 Claude Code 的 skills 目录
-git clone https://github.com/op7418/Humanizer-zh.git ~/.claude/skills/humanizer-zh
+git clone https://github.com/YemingMeng/Humanizer-zh ~/.claude/skills/humanizer-zh
 ```
 
 ### 方法三：手动安装
@@ -228,6 +229,7 @@ git clone https://github.com/op7418/Humanizer-zh.git ~/.claude/skills/humanizer-
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) - 原始指南来源
 - [WikiProject AI Cleanup](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup) - 维基百科 AI 清理项目
 - [blader/humanizer](https://github.com/blader/humanizer) - 原始英文版项目
+- [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh/tree/main) - 原始中文版项目
 - [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) - 实用工具部分的灵感来源
 
 ## 许可
